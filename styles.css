@@ -1,0 +1,102 @@
+/* Just basic styles you can delete all of this to start yours 👌👌 */
+
+/* removing all the margin and padding space zenye zilikua innitially 
+(by default) the * means everything*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* simple styles to make the page standard and classic for */
+body {
+  height: 100vh;
+  background: #090909;
+  color: #a59999;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* other styles */
+
+.heading-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 30%;
+}
+
+h2 {
+  color: #3f3fe9;
+}
+
+.heading-content > p {
+  color: #6262c4;
+}
+
+.content {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+code {
+  color: #3f3fe9;
+  font-size: large;
+  font-weight: bold;
+}
+
+.test-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.test-content > p {
+  font-size: larger;
+  margin-left: 8px;
+}
+
+.button-test {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.test-btn {
+  color: #ffffff;
+  background-color: #2d2dc2;
+  width: 100px;
+  padding: 8px;
+  border: none;
+  border-radius: 30px;
+}
+
+.test-btn:hover {
+  background-color: #6262c4;
+}
+
+.test-btn:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    padding: 8px;
+  }
+}
